@@ -11,7 +11,7 @@ class Auth extends CI_Controller {
 	public function index()
 	{
 		/*
-		git testing
+		git testing 22
 	
 		*/
 		if ($this->session->userdata('login')) {
