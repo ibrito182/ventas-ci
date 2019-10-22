@@ -6,9 +6,14 @@ class Auth extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->model("Usuarios_model");
+		//kjasdkas
 	}
 	public function index()
 	{
+		/*
+		git testing
+	
+		*/
 		if ($this->session->userdata('login')) {
 			redirect(base_url()."dashboard");
 		}else
